@@ -27,28 +27,59 @@ Each task has specific requirements and assets provided within the project folde
 
 For detailed instructions and requirements for each task, refer to the respective project directories (`project1`, `project2`, `project3`).
 
-## Project Structure
+# Assessment 2 - Vanilla JS: Slackr
 
-- **project1:** HTML/CSS Assessment
-  - **task1:** Task 1 files and assets
-  - **task2:** Task 2 files and assets
-  - **task3:** Task 3 files and assets
-  - **task4:** Task 4 files and assets
-- **project2:** [Description of Project 2]
-- **project3:** [Description of Project 3]
+## 1. Background & Motivation
 
-## Getting Started
+In the realm of web development, understanding fundamental JavaScript-based technologies and architectures is crucial. This assignment delves into building a frontend website using Vanilla JS, without relying on frameworks like ReactJS. The focus is on interacting with a RESTful API HTTP backend (provided) using promises and fetch mechanisms.
 
-1. Clone this repository to your local machine.
-2. Navigate to the specific project folder (`project1`, `project2`, `project3`) you want to work on.
-3. Follow the instructions provided in the respective project's README file for setup and task details.
-4. Complete the tasks and submit your work according to the course guidelines.
+## 2. The Task
 
-## Additional Resources
+The task is to develop a frontend for "Slackr," a UNSW version of the popular messaging tool Slack. The frontend will include features such as registration, login, channel creation, viewing messages, user interactions, and more.
 
-- [Course Material](https://link-to-course-material)
-- [External Resources](https://link-to-external-resources)
+### 2.1. Milestone 1 - Registration & Login
 
-For any questions or clarifications regarding the projects, please reach out to your course instructor.
+This milestone involves creating the basic user interface for registration and login functionalities.
 
-Happy coding! 🚀
+### 2.2. Milestone 2 - Creating and Viewing Channels
+
+Focuses on creating channels, viewing channel lists, and managing channel details.
+
+### 2.3. Milestone 3 - Channel Messages
+
+Involves displaying, sending, editing, reacting, and managing messages within channels.
+
+### 2.4. Milestone 4 - Multi-user Interactivity
+
+Includes inviting users to channels, viewing user profiles, and managing user profiles.
+
+### 2.5. Milestone 5 - Photos in Channels
+
+Enables users to upload and view photos as part of messages in channels.
+
+### 2.6. Milestone 6 - Challenge Components
+
+Includes implementing infinite scroll and push notifications for enhanced user experience.
+
+### 2.7. Milestone 7 - Extra Challenge Components
+
+Further challenges like offline access and fragment-based URL routing for advanced functionalities.
+
+### 2.8. Bonus Marks
+
+Opportunity to earn bonus marks by implementing standout features enhancing UI/UX or adding extra functionalities.
+
+## 3. Getting Started
+
+### 3.1. The Frontend
+
+- Stub code provided in `frontend/` directory.
+- Modify or delete stub code as needed.
+- Use `npm install --global http-server` to run a web server for serving frontend files.
+- Start the server with `npx http-server frontend -p [port]` where `[port]` is your chosen port.
+
+Refer to the detailed assignment document for specific requirements and functionalities for each milestone.
+
+---
+
+Feel free to customize and expand upon the instructions in the README file based on your specific course requirements or additional guidelines.
