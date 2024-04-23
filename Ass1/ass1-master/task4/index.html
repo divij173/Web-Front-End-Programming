@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 4</title>
+</head>
+<body>
+    <form name="form_details">
+        <table border="1">
+            <tr>
+                <td>First Name</td><td><input type="text" name="fname"></td>
+            </tr>
+            
+            <tr>
+                <td>Last Name</td><td><input type="text" name="lname"></td>
+            </tr>
+            
+            <tr>
+                <td>Date of birth</td><td><input type="texts" name="dob"></td>
+            </tr>
+    
+            <tr>
+                <td>Favourite animal</td>
+                <td>
+                    <select name="drop_down" id ="drop_down" onchange="myfunc()">
+                        <option value="Haloumi">Haloumi</option>
+                        <option value="Brie">Brie</option>
+                    </select>
+                </td>
+            </tr>
+    
+            <tr>
+                <td>Cities lived in</td>
+                <td>
+                    <input type="checkbox" name="boxy" id="check1" value="Adelaide" onclick="mycheck1()"> Adelaide<br>
+                    <input type="checkbox" name="boxy" id="check2" value="Perth" onclick="mycheck2()"> Perth<br>
+                    <input type="checkbox" name="boxy" id="check3" value="Hobart" onclick="mycheck3()"> Hobart<br>
+                    <input type="checkbox" name="boxy" id="check4" value="Darwin" onclick="mycheck4()"> Darwin<br>
+                </td>
+            </tr>
+        </table>
+        <input type="reset" id="reset"><br>
+        <textarea name="textarea" style="height: 200px; width: 600px;"></textarea>
+    </form>
+    <script src="jsscript.js"></script>
+</body>
+</html>
