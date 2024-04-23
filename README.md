@@ -12,9 +12,9 @@ This course has a heavy emphasis on industry voices, with lectures given by curr
 
 For more detailed information about the course, please refer to the provided course material.
 
-## Projects Overview
+# Projects Overview
 
-### Project 1: HTML/CSS Assessment
+# Project 1: HTML/CSS Assessment
 
 Project 1 focuses on implementing basic web pages using HTML and CSS. The tasks are designed to demonstrate skills developed during the initial weeks of the course.
 
@@ -25,9 +25,8 @@ Project 1 focuses on implementing basic web pages using HTML and CSS. The tasks 
 
 Each task has specific requirements and assets provided within the project folders.
 
-For detailed instructions and requirements for each task, refer to the respective project directories (`project1`, `project2`, `project3`).
 
-# Assessment 2 - Vanilla JS: Slackr
+# Project 2 - Vanilla JS: Slackr
 
 ## 1. Background & Motivation
 
@@ -65,21 +64,7 @@ Includes implementing infinite scroll and push notifications for enhanced user e
 
 Further challenges like offline access and fragment-based URL routing for advanced functionalities.
 
-### 2.8. Bonus Marks
+### 2.8. Bonus
 
 Opportunity to earn bonus marks by implementing standout features enhancing UI/UX or adding extra functionalities.
 
-## 3. Getting Started
-
-### 3.1. The Frontend
-
-- Stub code provided in `frontend/` directory.
-- Modify or delete stub code as needed.
-- Use `npm install --global http-server` to run a web server for serving frontend files.
-- Start the server with `npx http-server frontend -p [port]` where `[port]` is your chosen port.
-
-Refer to the detailed assignment document for specific requirements and functionalities for each milestone.
-
----
-
-Feel free to customize and expand upon the instructions in the README file based on your specific course requirements or additional guidelines.
