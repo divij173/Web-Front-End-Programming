@@ -68,3 +68,69 @@ Further challenges like offline access and fragment-based URL routing for advanc
 
 Opportunity to earn bonus marks by implementing standout features enhancing UI/UX or adding extra functionalities.
 
+# AirBrB Frontend README
+
+## Background & Motivation
+
+AirBrB is a person-to-person property renting service inspired by the success of the messaging platform Slackr. This frontend project is built in ReactJS, interacting with a RESTful API provided by a backend team. The goal is to create a seamless user experience for both guests and hosts, adhering to high UI, UX, and accessibility standards.
+
+## Features Overview
+
+### 1. Admin Auth
+
+- **Login Screen**: Unique route, email and password entry, error handling, submission button.
+- **Register Screen**: Unique route, email, password, name entry, confirm password, error handling, submission button.
+- **Logout Button**: Allows logging out and returns to landing screen.
+- **Common Items**: Logout button, buttons for viewing hosted listings and all listings.
+
+### 2. Creating & Editing & Publishing a Hosted Listing
+
+- **Hosted Listings Screen**: Displays user's listings, clickable elements for editing/deleting listings.
+- **Hosted Listing Create**: Create new listing with various details.
+- **Edit AirBrB Listing**: Edit existing listing details.
+- **Publishing a Listing**: Make a listing visible to other users, define availability ranges.
+
+### 3. Landing Page: Listings and Search
+
+- **Listings Screen**: Display all listings, search filters by title, city, bedrooms, date range, price, and review ratings.
+- **Search Filters**: Input fields for search parameters, search button to apply filters.
+
+### 4. Viewing and Booking Listings
+
+- **View a Selected Listing**: Display detailed information about a listing, book the listing, view booking status.
+- **Making a Booking and Checking its Status**: Book a listing, confirmation message, leave reviews.
+- **Leaving a Listing Review**: Logged-in users can leave reviews for listings they've booked.
+
+### 5. Removing a Listing, Managing Booking Requests
+
+- **Removing a Live Listing**: Unpublish a listing, affect bookings' visibility.
+- **Viewing Booking Requests and History**: Display booking requests, accept/deny requests, show listing stats.
+
+### 6. Advanced Features
+
+- **Advanced Listing Rating Viewing**: Tooltips for ratings, detailed reviews view.
+- **Listing Profits Graph**: Display user's profit from listings in the past month.
+- **Listing Upload**: Upload listing data via JSON file.
+- **YouTube Listing Thumbnail**: Use a YouTube video as a listing thumbnail.
+
+### Additional Requirements
+
+- **Linting**: Run `yarn lint` from `frontend` folder.
+- **Testing**: Component testing with excellent coverage, clarity, and design. UI testing for user paths.
+
+## Running the Project
+
+1. Clone the repository.
+2. Navigate to the `frontend` folder.
+3. Run `yarn install` to install dependencies.
+4. Run `yarn start` to start the development server.
+5. Run `yarn test` for component and UI testing.
+
+## Project Structure
+
+- `src`: Contains all React components and related files.
+- `public`: Contains public assets like index.html.
+- `tests`: Contains component and UI testing files.
+- `README.md`: Project overview and setup instructions.
+- `TESTING.md`: Testing rationale and details.
+
