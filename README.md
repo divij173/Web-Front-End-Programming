@@ -68,7 +68,8 @@ Further challenges like offline access and fragment-based URL routing for advanc
 
 Opportunity to earn bonus marks by implementing standout features enhancing UI/UX or adding extra functionalities.
 
-# AirBrB Frontend README
+
+# Project 3 - ReactJS: AirBrB
 
 ## Background & Motivation
 
